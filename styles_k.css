@@ -1,0 +1,78 @@
+@font-face { font-family: Lexend; 
+    src: url('font/Lexend/Lexend.ttf'); } 
+h2{
+font-family: Lexend;
+}
+
+body{
+    background-color: black;
+}
+
+.product{
+    height:700px;
+    text-align: center;
+    margin: 60px;
+    width: auto;
+}
+
+.description{
+    background-image: url(background/bg1.jpg);
+    background-size: cover;
+    text-align: center;
+    /* margin-top: 80px; */
+    height: 700px;
+    width: auto;
+    margin-top: 70px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.card{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.desc-rect{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.offcanvas{
+    background-color: black;
+}
+.offcanvas-title{
+    color: white;
+}
+
+.navbar-brand{
+   font-family: 'Trebuchet MS';
+   font-size: 30px;
+   color: white;
+}
+
+.nav-link{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.title-business{
+    font-size: 60px;
+    font-family: 'Lexend';
+    padding-top: 50px;
+    color: white;
+}
