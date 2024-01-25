@@ -116,6 +116,16 @@ body{
     .product{
         height: auto;
     }
+    .title-business{
+        font-size: 100px;
+    }
+    .title-product{
+        font-size:;
+    }
+    .col-logo{
+        text-align: center;
+        padding-bottom: 50px;
+    }
 }
 
 footer{
@@ -168,7 +178,7 @@ footer{
 }
 
 .title-product{
-    font-size: 120px;
+    font-size: 100px;
     color: white;
     align-items: center;
     padding-bottom: 50px;
