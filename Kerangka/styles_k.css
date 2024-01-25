@@ -1,0 +1,154 @@
+@font-face { font-family: Lexend; 
+    src: url('font/Lexend/Lexend.ttf'); } 
+h2{
+font-family: Lexend;
+}
+
+body{
+    background-color: black;
+}
+
+.product{
+    height:700px;
+    text-align: center;
+    margin: 60px;
+    width: auto;
+}
+
+.description{
+    background-image: url(background/bg1.jpg);
+    background-size: cover;
+    /* margin-top: 80px; */
+    height: 700px;
+    width: auto;
+    margin-top: 90px;
+    filter: blur(5px);
+}
+
+.desc-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.card{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    background-image: linear-gradient(#414c6b, #a5def2);
+}
+
+.card-img-top{
+    width: 350px;
+    height: 400px;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.offcanvas{
+    background-color: black;
+}
+.offcanvas-title{
+    color: white;
+}
+
+.navbar-brand{
+   font-family: 'Trebuchet MS';
+   font-size: 30px;
+   color: white;
+}
+
+.navbar-brand:hover, .navbar-toggler-icon:hover{
+    color: yellow;
+}
+
+.nav-link{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.title-business{
+    font-size: 170px;
+    font-family: 'Lexend';
+    /* padding-top: 160px; */
+    color: #a5def2;
+    text-shadow: 
+        0 0 20px white;
+}
+
+@media (max-width: 768px){
+    .title-business{
+        padding-top: 80px;
+    }
+}
+
+footer{
+    color: black;
+    padding-bottom: 50px;
+    background-image: linear-gradient(#a5def2, #414c6b);
+    padding-top: 50px;
+    margin-top: 100px;
+
+}
+
+.foot-fill{
+    display: flex;
+}
+
+.col-logo img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.col-contact, .col-sosmed{
+    padding-left: 120px;
+}
+
+.foot-title{
+    padding-bottom: 30px;
+}
+
+.foot-icon{
+    font-size: 25px;
+}
+
+.foot-contact a{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.foot-icon-sosmed a{
+    font-size: 70px;
+    color: white;
+}
+
+.foot-fill{
+    padding-bottom: 30px;
+}
+
+.title-product{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Lexend;
+}
+
+.card-buy{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
