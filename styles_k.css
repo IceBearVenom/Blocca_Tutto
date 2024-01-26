@@ -64,6 +64,7 @@ body{
 
 .offcanvas{
     background-color: black;
+    background: rgba(0, 0, 0, 0.5);
 }
 .offcanvas-title{
     color: white;
@@ -118,9 +119,6 @@ body{
     }
     .title-business{
         font-size: 100px;
-    }
-    .title-product{
-        font-size: ;
     }
     .col-logo{
         text-align: center;
