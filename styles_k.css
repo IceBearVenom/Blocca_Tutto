@@ -46,8 +46,8 @@ body{
 .card{
     position: relative;
     width: auto;
-    background-image: linear-gradient(#414c6b, #a5def2);
-    flex: 1;
+    /* background-image: linear-gradient(#414c6b, #a5def2); */
+    background-color: #a5def2;
     overflow: hidden;
     border-radius: 10%;
 }
@@ -193,4 +193,8 @@ footer{
 .card-img-top:hover{
     transform: scale(0.7);
     transition: all .5s;
+}
+
+.bi-cart3{
+    font-size: 30px;
 }
